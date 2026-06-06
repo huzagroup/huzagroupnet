@@ -1,0 +1,31 @@
+.contact {
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact h1 {
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+input,
+select,
+textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 140px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
